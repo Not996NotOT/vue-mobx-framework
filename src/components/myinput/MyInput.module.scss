@@ -1,0 +1,44 @@
+@import "../../config/style/global.scss";
+.main {
+  .input {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: "tnum";
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    transition: all 0.3s;
+    display: inline-block;
+    &:focus {
+      outline: none;
+      border: none;
+      border: 1px $primaryColor solid;
+    }
+    &::-webkit-input-placeholder {
+      /* WebKit browsers */
+      color: #d9d9d9;
+    }
+
+    &::-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: #d9d9d9;
+    }
+
+    &:-ms-input-placeholder {
+      /* Internet Explorer 10+ */
+      color: #d9d9d9;
+    }
+  }
+}

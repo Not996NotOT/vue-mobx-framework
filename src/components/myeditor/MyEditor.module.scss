@@ -1,0 +1,11 @@
+@import "../../config/style/global.scss";
+.main {
+  border: 1px solid $formBorder;
+  .text {
+    //z-index: -100 !important;
+    height: 400px;
+  }
+  //    .toolbar{
+  //        z-index: -100!important;
+  //    }
+}

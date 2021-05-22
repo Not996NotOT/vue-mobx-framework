@@ -1,0 +1,1 @@
+export declare type Contructor = new (...arg:any[]) => any;

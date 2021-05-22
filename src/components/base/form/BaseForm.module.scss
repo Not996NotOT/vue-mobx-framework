@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 24px;
+  .form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .formItem {
+      margin-bottom: 20px;
+      display: flex;
+      .formLabel {
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+      .formComponent {
+      }
+    }
+    .inputError {
+      color: #f5222d;
+    }
+    .borderError {
+      border: 1px solid #f5222d;
+    }
+  }
+  .action {
+    display: flex;
+    justify-content: center;
+  }
+}

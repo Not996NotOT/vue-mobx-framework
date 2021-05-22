@@ -1,0 +1,38 @@
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    .left{
+        background-color: #001529;
+    }
+    .right{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        .top{
+            width: 100%;
+            height: 64px;
+            background-color:white;
+        }
+        .border{
+            flex:1;
+            padding: 24px;
+            background-color: #f0f2f5;
+            .content{
+                height: 100%;
+                width: 100%;
+                background-color: white;
+            }
+        }
+    }
+}

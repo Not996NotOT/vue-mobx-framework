@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 24px;
+  .form {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .inputError {
+      color: #f5222d;
+    }
+  }
+  .action {
+    display: flex;
+    justify-content: center;
+  }
+}
